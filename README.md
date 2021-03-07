@@ -1,10 +1,5 @@
 # Cloud Native Weekend
 
-## Project Monitor and Pre-requisites
-
-A simple dashboard for your Cloud Native Weekend exercises - 
-and an exercise intended to prepare your machine for the weekend.
-
 - Project monitor ![project-monitor](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml/badge.svg)
 - Simple aged cache ![simple-aged-cache](https://github.com/continuumcollective/simple-aged-cache/actions/workflows/build.yml/badge.svg)
 - Simple aged cache revisited ![simple-aged-cache-revisited](https://github.com/continuumcollective/simple-aged-cache-revisited/actions/workflows/build.yml/badge.svg)
@@ -12,14 +7,19 @@ and an exercise intended to prepare your machine for the weekend.
 - Provenance metrics ![provenance-metrics](https://github.com/continuumcollective/provenance-metrics/actions/workflows/build.yml/badge.svg)
 - The milk problem ![the-milk-problem](https://github.com/continuumcollective/the-milk-problem/actions/workflows/build.yml/badge.svg)
 
-Don't worry about missing or broken links just yet - we'll be creating the repos 
-and enabling the links over the weekend.
+## Project monitor and pre-requisites
+
+A simple dashboard for your Cloud Native Weekend exercises - 
+and an exercise intended to prepare your machine for the weekend.
 
 ## The Exercise
 
 This exercise is intended to prepare your machine for the weekend. 
 
 ### Before we jump in... 
+
+Don't worry about missing or broken links just yet - we'll be creating the repos
+and enabling the links over the weekend.
 
 Let's take a quick look at the tech stack we'll be using over the weekend. 
 
@@ -54,10 +54,10 @@ that will work well for our exercises.
 
 ## Summary
 
-- [ ] Review the tools we'll be using
-- [ ] Create a GitHub project for this exercise in `~/workspace`
-- [ ] Replace `continuumcollective` with your GitHub username for each of the below README links.
-- [ ] Ensure that this exercise is clean and green!
+- Review the tools we'll be using
+- Create a GitHub project for this exercise in `~/workspace`
+- Replace `continuumcollective` with your GitHub username for each of the below README links.
+- Ensure that this exercise is clean and green!
 
 Hope you enjoy the exercise!
 
