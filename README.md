@@ -1,7 +1,7 @@
 # Welcome to Cloud Native Weekend
 
-A simple dashboard for your Cloud Native Weekend exercises -
-and an exercise intended to prepare your machine for the weekend.
+A simple dashboard for your Cloud Native Weekend exercises
+and exercise to prepare your machine for the weekend.
 
 |Project|Status|
 |:---|:---|
@@ -12,9 +12,9 @@ and an exercise intended to prepare your machine for the weekend.
 |Provenance metrics| [![Provenance metrics](https://github.com/continuumcollective/provenance-metrics/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
 |The milk problem| [![The milk problem](https://github.com/continuumcollective/the-milk-problem/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
 
-## Before we jump in... 
+## Before we start 
 
-Don't worry about missing or broken links just yet - we'll be creating the repos
+Don't worry about any missing or broken links above just yet - we'll be creating the repos
 and enabling the links over the weekend.
 
 Let's take a quick look at the tech stack we'll be using over the weekend. 
@@ -33,16 +33,16 @@ Let's take a quick look at the tech stack we'll be using over the weekend.
 |Production environment|[Heroku](https://www.heroku.com/)|
 |Monitoring|[Prometheus](https://prometheus.io/), [Grafana](https://grafana.com/)|
 
-## Also worth mentioning
+## Working directory
 
-We'll be using the `~/workspace` directory for the exercises. Let's setup that directory now.
+We'll be using a `~/workspace` directory for all the exercises. Let's setup that directory now.
 
 ```bash
 mkdir ~/workspace
 cd ~/workspace
 ```
 
-## and one last thing
+## IntelliJ
 
 We strongly recommend using [IntelliJ](https://www.jetbrains.com/idea/) as your IDE. There is a free
 [Community Edition](https://www.jetbrains.com/idea/features/editions_comparison_matrix.html)
@@ -52,12 +52,12 @@ that will work well for our exercises.
 
 Get the tests to pass!
 
-- Review the tools we'll be using
-- Create a GitHub project for this exercise in `~/workspace`
+- Download the source code
+- Create a directory and GitHub repository for this exercise in `~/workspace`
 - Replace `continuumcollective` with your GitHub username for each of the below README links.
-- Ensure that this exercise is clean and green!
+- Get the tests to pass
 
-Hope you enjoy the exercise!
+Welcome to the weekend!
 
 Thanks, @barinek
 
