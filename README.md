@@ -1,22 +1,18 @@
-# Cloud Native Weekend
+# Welcome to Cloud Native Weekend
 
-- Project monitor [![Project monitor](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)
-- Simple aged cache [![Simple aged cache](https://github.com/continuumcollective/simple-aged-cache/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)
-- Simple aged cache revisited [![Simple aged cache revisited](https://github.com/continuumcollective/simple-aged-cache-revisited/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)
-- Provenance [![Provenance](https://github.com/continuumcollective/provenance/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)
-- Provenance metrics [![Provenance metrics](https://github.com/continuumcollective/provenance-metrics/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)
-- The milk problem [![The milk problem](https://github.com/continuumcollective/the-milk-problem/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)
-
-## Project monitor and pre-requisites
-
-A simple dashboard for your Cloud Native Weekend exercises - 
+A simple dashboard for your Cloud Native Weekend exercises -
 and an exercise intended to prepare your machine for the weekend.
 
-## The Exercise
+|Project|Status|
+|:---|:---|
+|Project monitor| [![Project monitor](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
+|Simple aged cache| [![Simple aged cache](https://github.com/continuumcollective/simple-aged-cache/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
+|Simple aged cache revisited| [![Simple aged cache revisited](https://github.com/continuumcollective/simple-aged-cache-revisited/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
+|Provenance| [![Provenance](https://github.com/continuumcollective/provenance/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
+|Provenance metrics| [![Provenance metrics](https://github.com/continuumcollective/provenance-metrics/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
+|The milk problem| [![The milk problem](https://github.com/continuumcollective/the-milk-problem/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
 
-This exercise is intended to prepare your machine for the weekend. 
-
-### Before we jump in... 
+## Before we jump in... 
 
 Don't worry about missing or broken links just yet - we'll be creating the repos
 and enabling the links over the weekend.
@@ -37,7 +33,7 @@ Let's take a quick look at the tech stack we'll be using over the weekend.
 |Production environment|[Heroku](https://www.heroku.com/)|
 |Monitoring|[Prometheus](https://prometheus.io/), [Grafana](https://grafana.com/)|
 
-### Also worth mentioning
+## Also worth mentioning
 
 We'll be using the `~/workspace` directory for the exercises. Let's setup that directory now.
 
@@ -46,13 +42,15 @@ mkdir ~/workspace
 cd ~/workspace
 ```
 
-### and one last thing
+## and one last thing
 
 We strongly recommend using [IntelliJ](https://www.jetbrains.com/idea/) as your IDE. There is a free
 [Community Edition](https://www.jetbrains.com/idea/features/editions_comparison_matrix.html)
 that will work well for our exercises.
 
-## Summary
+## The Exercise
+
+Get the tests to pass!
 
 - Review the tools we'll be using
 - Create a GitHub project for this exercise in `~/workspace`
