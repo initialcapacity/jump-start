@@ -1,11 +1,11 @@
 # Cloud Native Weekend
 
-- Project monitor ![project-monitor](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml/badge.svg)
-- Simple aged cache ![simple-aged-cache](https://github.com/continuumcollective/simple-aged-cache/actions/workflows/build.yml/badge.svg)
-- Simple aged cache revisited ![simple-aged-cache-revisited](https://github.com/continuumcollective/simple-aged-cache-revisited/actions/workflows/build.yml/badge.svg)
-- Provenance ![provenance](https://github.com/continuumcollective/provenance/actions/workflows/build.yml/badge.svg)
-- Provenance metrics ![provenance-metrics](https://github.com/continuumcollective/provenance-metrics/actions/workflows/build.yml/badge.svg)
-- The milk problem ![the-milk-problem](https://github.com/continuumcollective/the-milk-problem/actions/workflows/build.yml/badge.svg)
+- Project monitor [![Project monitor](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)
+- Simple aged cache [![Simple aged cache](https://github.com/continuumcollective/simple-aged-cache/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)
+- Simple aged cache revisited [![Simple aged cache revisited](https://github.com/continuumcollective/simple-aged-cache-revisited/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)
+- Provenance [![Provenance](https://github.com/continuumcollective/provenance/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)
+- Provenance metrics [![Provenance metrics](https://github.com/continuumcollective/provenance-metrics/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)
+- The milk problem [![The milk problem](https://github.com/continuumcollective/the-milk-problem/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)
 
 ## Project monitor and pre-requisites
 
