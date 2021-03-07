@@ -1,9 +1,9 @@
 # Welcome to Cloud Native Weekend
 
 A simple dashboard for your Cloud Native Weekend exercises
-and exercise to prepare your machine for the weekend.
+- and an exercise to prepare your machine for the weekend.
 
-|Project|Status|
+|Exercise|Status|
 |:---|:---|
 |Project monitor| [![Project monitor](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
 |Simple aged cache| [![Simple aged cache](https://github.com/continuumcollective/simple-aged-cache/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
@@ -17,7 +17,7 @@ and exercise to prepare your machine for the weekend.
 Don't worry about any missing or broken links above just yet - we'll be creating the repos
 and enabling the links over the weekend.
 
-Let's take a quick look at the tech stack we'll be using over the weekend. 
+Let's take a quick look at the tech stack we'll be using for the exercises. 
 
 |Topic|Tool|
 |:---|:---|
