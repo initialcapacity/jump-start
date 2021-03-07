@@ -1,7 +1,6 @@
 # Welcome to Cloud Native Weekend
 
-A simple dashboard for your Cloud Native Weekend exercises
-- and an exercise to prepare your machine for the weekend.
+A simple dashboard for your Cloud Native Weekend exercises and an exercise to prepare your machine for the weekend.
 
 |Exercise|Status|
 |:---|:---|
