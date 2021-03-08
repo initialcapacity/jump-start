@@ -2,14 +2,15 @@
 
 A simple dashboard for your Cloud Native Weekend exercises and an exercise to prepare your machine for the weekend.
 
-|Exercise|Status|
-|:---|:---|
-|Project monitor| [![Project monitor](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
-|Simple aged cache| [![Simple aged cache](https://github.com/continuumcollective/simple-aged-cache/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
-|Simple aged cache revisited| [![Simple aged cache revisited](https://github.com/continuumcollective/simple-aged-cache-revisited/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
-|Provenance| [![Provenance](https://github.com/continuumcollective/provenance/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
-|Provenance metrics| [![Provenance metrics](https://github.com/continuumcollective/provenance-metrics/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
-|The milk problem| [![The milk problem](https://github.com/continuumcollective/the-milk-problem/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
+<table>
+<thead><tr><td>Exercise</td><td>Status</td></tr></thead>
+<tr><td>Project monitor</td><td>[![Project monitor](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)</td></tr>
+<tr><td>Simple aged cache</td><td>[![Simple aged cache](https://github.com/continuumcollective/simple-aged-cache/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)</td></tr>
+<tr><td>Simple aged cache revisited</td><td>[![Simple aged cache revisited](https://github.com/continuumcollective/simple-aged-cache-revisited/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)</td></tr>
+<tr><td>Provenance</td><td>[![Provenance](https://github.com/continuumcollective/provenance/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)</td></tr>
+<tr><td>Provenance metrics</td><td>[![Provenance metrics](https://github.com/continuumcollective/provenance-metrics/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)</td></tr>
+<tr><td>The milk problem</td><td>[![The milk problem](https://github.com/continuumcollective/the-milk-problem/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)</td></tr>
+</table>
 
 ## Before we start 
 
