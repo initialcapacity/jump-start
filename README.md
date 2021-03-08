@@ -11,7 +11,7 @@ A simple dashboard for your Cloud Native Weekend exercises and an exercise to pr
 |Provenance metrics| ![Provenance metrics](https://github.com/continuumcollective/provenance-metrics/actions/workflows/build.yml/badge.svg)|
 |The milk problem| ![The milk problem](https://github.com/continuumcollective/the-milk-problem/actions/workflows/build.yml/badge.svg)|
 
-## Before we start
+### Before we start
 
 Don't worry about any missing or broken links above just yet - we'll be creating the repos
 and enabling the links over the weekend.
@@ -32,7 +32,7 @@ Let's take a quick look at the tech stack we'll be using for the exercises.
 |Production environment|[Heroku](https://www.heroku.com/)|
 |Monitoring|[Prometheus](https://prometheus.io/), [Grafana](https://grafana.com/)|
 
-## Working directory
+### Working directory
 
 We'll be using a `~/workspace` directory for all the exercises. Let's setup that directory now.
 
@@ -41,7 +41,7 @@ mkdir ~/workspace
 cd ~/workspace
 ```
 
-## IntelliJ
+### IntelliJ
 
 We strongly recommend using [IntelliJ](https://www.jetbrains.com/idea/) as your IDE. There is a free
 [Community Edition](https://www.jetbrains.com/idea/features/editions_comparison_matrix.html)
