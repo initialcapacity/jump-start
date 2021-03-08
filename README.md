@@ -19,19 +19,19 @@ and enabling the links over the weekend.
 
 Let's take a quick look at the tech stack we'll be using for the exercises. 
 
-|Topic|Tool|
-|:---|:---|
-|Project planning|[Tracker](https://www.pivotaltracker.com/)|
-|Package manager|[Homebrew](https://brew.sh/) for MacOS, [Chocolatey](https://chocolatey.org/) for Windows, [Apt](https://wiki.debian.org/Apt) for Debian-Based Linux|
-|Language|[Java](https://en.wikipedia.org/wiki/Java_%28programming_language%29), [Kotlin](https://kotlinlang.org/)|
-|Build tool|[Gradle](https://gradle.org/)|
-|Testing tools|[JUnit](https://junit.org/junit5/), [Mockito](https://site.mockito.org/)|
-|Data persistence|[PostgreSQL](https://www.postgresql.org/)|
-|Messaging|[RabbitMQ](https://www.rabbitmq.com/)|
-|Continuous integration|[GitHub](https://github.com/), [Heroku](https://www.heroku.com/)|
-|Continuous delivery|[Heroku](https://www.heroku.com/)|
-|Production environment|[Heroku](https://www.heroku.com/)|
-|Monitoring|[Prometheus](https://prometheus.io/), [Grafana](https://grafana.com/)|
+<table>
+<thead><tr><td>Topic</td><td>Tools</td></tr></thead>
+<tr><td>Project planning</td><td>[Tracker](https://www.pivotaltracker.com/)</td></tr>
+<tr><td>Package manager</td><td>[Homebrew](https://brew.sh/) for MacOS, [Chocolatey](https://chocolatey.org/) for Windows, [Apt](https://wiki.debian.org/Apt) for Debian-Based Linux</td></tr>
+<tr><td>Build tool</td><td>[Gradle](https://gradle.org/)</td></tr>
+<tr><td>Testing tools</td><td>[JUnit](https://junit.org/junit5/), [Mockito](https://site.mockito.org/)</td></tr>
+<tr><td>Data persistence</td><td>[PostgreSQL](https://www.postgresql.org/)</td></tr>
+<tr><td>Messaging</td><td>[RabbitMQ](https://www.rabbitmq.com/)</td></tr>
+<tr><td>Continuous integration</td><td>[GitHub](https://github.com/), [Heroku](https://www.heroku.com/)</td></tr>
+<tr><td>Continuous delivery</td><td>[Heroku](https://www.heroku.com/)</td></tr>
+<tr><td>Production environment</td><td>[Heroku](https://www.heroku.com/)</td></tr>
+<tr><td>Monitoring</td><td>[Prometheus](https://prometheus.io/), [Grafana](https://grafana.com/)</td></tr>
+</table>
 
 ## Working directory
 
