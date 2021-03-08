@@ -2,36 +2,35 @@
 
 A simple dashboard for your Cloud Native Weekend exercises and an exercise to prepare your machine for the weekend.
 
-<table>
-<thead><tr><td>Exercise</td><td>Status</td></tr></thead>
-<tr><td>Project monitor</td><td>Project monitor ![](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml/badge.svg)</td></tr>
-<tr><td>Simple aged cache</td><td>Simple aged cache ![](https://github.com/continuumcollective/simple-aged-cache/actions/workflows/build.yml/badge.svg)</td></tr>
-<tr><td>Simple aged cache revisited</td><td>Simple aged cache revisited ![](https://github.com/continuumcollective/simple-aged-cache-revisited/actions/workflows/build.yml/badge.svg)</td></tr>
-<tr><td>Provenance</td><td>Provenance ![](https://github.com/continuumcollective/provenance/actions/workflows/build.yml/badge.svg)</td></tr>
-<tr><td>Provenance metrics</td><td>Provenance metrics ![](https://github.com/continuumcollective/provenance-metrics/actions/workflows/build.yml/badge.svg)</td></tr>
-<tr><td>The milk problem</td><td>The milk problem ![](https://github.com/continuumcollective/the-milk-problem/actions/workflows/build.yml/badge.svg)</td></tr>
-</table>
+|Exercise|Status|
+|:---|:---|
+|Project monitor| [![Project monitor](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
+|Simple aged cache| [![Simple aged cache](https://github.com/continuumcollective/simple-aged-cache/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
+|Simple aged cache revisited| [![Simple aged cache revisited](https://github.com/continuumcollective/simple-aged-cache-revisited/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
+|Provenance| [![Provenance](https://github.com/continuumcollective/provenance/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
+|Provenance metrics| [![Provenance metrics](https://github.com/continuumcollective/provenance-metrics/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
+|The milk problem| [![The milk problem](https://github.com/continuumcollective/the-milk-problem/actions/workflows/build.yml/badge.svg)](https://github.com/continuumcollective/project-monitor/actions/workflows/build.yml)|
 
-## Before we start 
+## Before we start
 
 Don't worry about any missing or broken links above just yet - we'll be creating the repos
 and enabling the links over the weekend.
 
-Let's take a quick look at the tech stack we'll be using for the exercises. 
+Let's take a quick look at the tech stack we'll be using for the exercises.
 
-<table>
-<thead><tr><td>Topic</td><td>Tools</td></tr></thead>
-<tr><td>Project planning</td><td> [Tracker](https://www.pivotaltracker.com/) </td></tr>
-<tr><td>Package manager</td><td> [Homebrew](https://brew.sh/) for MacOS, [Chocolatey](https://chocolatey.org/) for Windows, [Apt](https://wiki.debian.org/Apt) for Debian-Based Linux </td></tr>
-<tr><td>Build tool</td><td> [Gradle](https://gradle.org/) </td></tr>
-<tr><td>Testing tools</td><td> [JUnit](https://junit.org/junit5/), [Mockito](https://site.mockito.org/) </td></tr>
-<tr><td>Data persistence</td><td> [PostgreSQL](https://www.postgresql.org/) </td></tr>
-<tr><td>Messaging</td><td> [RabbitMQ](https://www.rabbitmq.com/) </td></tr>
-<tr><td>Continuous integration</td><td> [GitHub](https://github.com/), [Heroku](https://www.heroku.com/) </td></tr>
-<tr><td>Continuous delivery</td><td> [Heroku](https://www.heroku.com/) </td></tr>
-<tr><td>Production environment</td><td> [Heroku](https://www.heroku.com/) </td></tr>
-<tr><td>Monitoring</td><td> [Prometheus](https://prometheus.io/), [Grafana](https://grafana.com/) </td></tr>
-</table>
+|Topic|Tool|
+|:---|:---|
+|Project planning|[Tracker](https://www.pivotaltracker.com/)|
+|Package manager|[Homebrew](https://brew.sh/) for MacOS, [Chocolatey](https://chocolatey.org/) for Windows, [Apt](https://wiki.debian.org/Apt) for Debian-Based Linux|
+|Language|[Java](https://en.wikipedia.org/wiki/Java_%28programming_language%29), [Kotlin](https://kotlinlang.org/)|
+|Build tool|[Gradle](https://gradle.org/)|
+|Testing tools|[JUnit](https://junit.org/junit5/), [Mockito](https://site.mockito.org/)|
+|Data persistence|[PostgreSQL](https://www.postgresql.org/)|
+|Messaging|[RabbitMQ](https://www.rabbitmq.com/)|
+|Continuous integration|[GitHub](https://github.com/), [Heroku](https://www.heroku.com/)|
+|Continuous delivery|[Heroku](https://www.heroku.com/)|
+|Production environment|[Heroku](https://www.heroku.com/)|
+|Monitoring|[Prometheus](https://prometheus.io/), [Grafana](https://grafana.com/)|
 
 ## Working directory
 
