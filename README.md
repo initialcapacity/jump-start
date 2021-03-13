@@ -1,10 +1,11 @@
 # Welcome!
 
-A simple dashboard for your Cloud Native Weekend exercises and an exercise to prepare your machine for the weekend.
+A simple dashboard for your Cloud Native Weekend exercises, and an
+exercise to prepare your machine for the weekend.
 
 |Exercise|Status|
 |:---|:---|
-|Getting started| ![Getting started](https://github.com/continuumcollective/jump-start/actions/workflows/build.yml/badge.svg)|
+|Jump start| ![Getting started](https://github.com/continuumcollective/jump-start/actions/workflows/build.yml/badge.svg)|
 |Simple aged cache| ![Simple aged cache](https://github.com/continuumcollective/simple-aged-cache/actions/workflows/build.yml/badge.svg)|
 |Simple aged cache revisited| ![Simple aged cache revisited](https://github.com/continuumcollective/simple-aged-cache-revisited/actions/workflows/build.yml/badge.svg)|
 |Provenance| ![Provenance](https://github.com/continuumcollective/provenance/actions/workflows/build.yml/badge.svg)|
@@ -13,10 +14,10 @@ A simple dashboard for your Cloud Native Weekend exercises and an exercise to pr
 
 ### Before we start
 
-Don't worry about any missing or broken links above just yet - we'll be creating the repos
-and enabling the links soon.
+Do not worry about any missing or broken links above just yet - we will
+be creating the repos and enabling the links soon.
 
-Let's take a quick look at the tech stack we'll be using for the exercises.
+Take a quick look at the tech stack we will be using for the exercises.
 
 |Topic|Tool|
 |:---|:---|
@@ -34,7 +35,8 @@ Let's take a quick look at the tech stack we'll be using for the exercises.
 
 ### Working directory
 
-We'll be using `~/workspace` for all the exercises. Let's setup that directory now.
+We will be using `~/workspace` for all the exercises. Setup that
+directory now.
 
 ```bash
 mkdir ~/workspace
@@ -43,18 +45,23 @@ cd ~/workspace
 
 ### IntelliJ
 
-We strongly recommend using [IntelliJ](https://www.jetbrains.com/idea/) as your IDE. There is a free
-[Community Edition](https://www.jetbrains.com/idea/features/editions_comparison_matrix.html)
+We strongly recommend using [IntelliJ](https://www.jetbrains.com/idea/)
+as your IDE.
+There is a free [Community Edition](https://www.jetbrains.com/idea/features/editions_comparison_matrix.html)
 that will work well for our exercises.
 
 ## The Exercise
 
 Get the tests to pass!
 
-- Download the source code
-- Create a directory and GitHub repository for this exercise in `~/workspace`
-- Replace `continuumcollective` with your GitHub username for each of the below README links.
-- Get the tests to pass
+- Create a directory called `workspace` in the home directory of your
+  machine.
+- Create a GitHub repository called `jump-start`.
+- Download the source code into a directory called `jump-start` in your
+  workspace directory.
+- Replace `continuumcollective` with your GitHub username for each of
+  the README links in the table on top.
+- Get the tests to pass. Keep it simple.
 
 Welcome to the weekend!
 
