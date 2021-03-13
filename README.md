@@ -12,10 +12,10 @@ exercise to prepare your machine for the weekend.
 |Provenance metrics| ![Provenance metrics](https://github.com/continuumcollective/provenance-metrics/actions/workflows/build.yml/badge.svg)|
 |The milk problem| ![The milk problem](https://github.com/continuumcollective/the-milk-problem/actions/workflows/build.yml/badge.svg)|
 
-### Before we start
+## Before we start
 
-Do not worry about any missing or broken links above just yet - we will
-be creating the repos and enabling the links soon.
+Do not worry about any missing or broken links above just yet.
+We will create the repos and enabling the links soon.
 
 Take a quick look at the tech stack we will be using for the exercises.
 
@@ -35,8 +35,8 @@ Take a quick look at the tech stack we will be using for the exercises.
 
 ### Working directory
 
-We will be using `~/workspace` for all the exercises. Setup that
-directory now.
+We will be using `~/workspace` for all the exercises.
+Create that directory now.
 
 ```bash
 mkdir ~/workspace
@@ -54,12 +54,13 @@ that will work well for our exercises.
 
 Get the tests to pass!
 
-- Create a GitHub repository called `jump-start`.
-- Download the source code into a directory called `jump-start` in your
-  `workspace` directory that your created above.
-- Replace `continuumcollective` with your GitHub username for each of
-  the README links in the table on top.
-- Get the tests to pass. Keep it simple.
+-   Create a GitHub repository called `jump-start`.
+-   Download the source code into a directory called `jump-start` in
+    your `workspace` directory that your created above.
+-   Replace `continuumcollective` with your GitHub username for each of
+    the README links in the table on top.
+-   Get the tests to pass.
+    Keep it simple.
 
 Welcome to the weekend!
 
