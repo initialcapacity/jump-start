@@ -54,11 +54,9 @@ that will work well for our exercises.
 
 Get the tests to pass!
 
-- Create a directory called `workspace` in the home directory of your
-  machine.
 - Create a GitHub repository called `jump-start`.
 - Download the source code into a directory called `jump-start` in your
-  workspace directory.
+  `workspace` directory that your created above.
 - Replace `continuumcollective` with your GitHub username for each of
   the README links in the table on top.
 - Get the tests to pass. Keep it simple.
