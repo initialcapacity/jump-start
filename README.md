@@ -11,6 +11,7 @@ exercise to prepare your machine for the weekend.
 |Provenance| ![Provenance](https://github.com/continuumcollective/provenance/actions/workflows/build.yml/badge.svg)|
 |Provenance metrics| ![Provenance metrics](https://github.com/continuumcollective/provenance-metrics/actions/workflows/build.yml/badge.svg)|
 |The milk problem| ![The milk problem](https://github.com/continuumcollective/the-milk-problem/actions/workflows/build.yml/badge.svg)|
+|The milk problem continued| ![The milk problem continued](https://github.com/continuumcollective/the-milk-problem-continued/actions/workflows/build.yml/badge.svg)|
 
 ## Before we start
 
