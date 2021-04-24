@@ -5,18 +5,15 @@ exercise to prepare your machine for the weekend.
 
 |Exercise|Status|
 |:---|:---|
-|Jump start| ![Getting started](https://github.com/continuumcollective/jump-start/actions/workflows/build.yml/badge.svg)|
-|Simple aged cache| ![Simple aged cache](https://github.com/continuumcollective/simple-aged-cache/actions/workflows/build.yml/badge.svg)|
-|Simple aged cache revisited| ![Simple aged cache revisited](https://github.com/continuumcollective/simple-aged-cache-revisited/actions/workflows/build.yml/badge.svg)|
-|Provenance| ![Provenance](https://github.com/continuumcollective/provenance/actions/workflows/build.yml/badge.svg)|
-|Provenance metrics| ![Provenance metrics](https://github.com/continuumcollective/provenance-metrics/actions/workflows/build.yml/badge.svg)|
-|The milk problem| ![The milk problem](https://github.com/continuumcollective/the-milk-problem/actions/workflows/build.yml/badge.svg)|
-|The milk problem continued| ![The milk problem continued](https://github.com/continuumcollective/the-milk-problem-continued/actions/workflows/build.yml/badge.svg)|
+|Jump start| |
+|Simple aged cache| |
+|Simple aged cache revisited| |
+|Provenance| |
+|Provenance metrics| |
+|The milk problem| |
+|The milk problem continued| |
 
 ## Before we start
-
-Do not worry about any missing or broken links above just yet.
-We will create the repos and enabling the links soon.
 
 Take a quick look at the tech stack we will be using for the exercises.
 
