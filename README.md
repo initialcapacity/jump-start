@@ -25,15 +25,12 @@ cd ~/workspace
 
 ## The Exercise
 
-Get the tests to pass!
+Once your software is installed and running (using `brew services run $SERVICE_NAME` for homebrew), run the tests to
+check that everything is working correctly.
 
--   Create a GitHub repository called `jump-start`.
--   Download the source code into a directory called `jump-start` in
-    your `workspace` directory that your created above.
--   Replace `continuumcollective` with your GitHub username for each of
-    the README links in the table on top.
--   Get the tests to pass.
-    Keep it simple.
+```shell
+./gradlew test
+```
 
 Welcome to the weekend!
 
