@@ -23,7 +23,9 @@ mkdir ~/workspace
 cd ~/workspace
 ```
 
-## The Exercise
+Download the codebase in the top right corner, unzip it, and move it into this directory.
+
+## The exercise
 
 Once your software is installed and running (using `brew services run $SERVICE_NAME` for homebrew), run the tests to
 check that everything is working correctly.
