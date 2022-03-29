@@ -32,6 +32,6 @@ check that everything is working correctly.
 ./gradlew test
 ```
 
-Welcome to the weekend!
+Your machine is ready for the weekend once all the tests pass!
 
 © 2022 by Initial Capacity. All rights reserved.
