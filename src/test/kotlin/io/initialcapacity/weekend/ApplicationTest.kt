@@ -1,13 +1,14 @@
 package io.initialcapacity.weekend
 
 import com.fasterxml.jackson.databind.JsonNode
+import com.fasterxml.jackson.databind.node.NullNode
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT
+import org.springframework.boot.test.web.client.TestRestTemplate
 import org.springframework.boot.web.server.LocalServerPort
 import org.springframework.http.HttpStatus
-import org.springframework.web.client.RestTemplate
 
 @SpringBootTest(webEnvironment = RANDOM_PORT)
 class ApplicationTest {
@@ -16,14 +17,15 @@ class ApplicationTest {
 
     @Test
     fun testHealth() {
-        val response = RestTemplate().getForEntity("http://localhost:$port/actuator/health", JsonNode::class.java)
+        val response = TestRestTemplate().getForEntity("http://localhost:$port/actuator/health", JsonNode::class.java)
+        val responseBody = response.body ?: NullNode.instance
 
-        assertEquals(
-            "UP",
-            response.body?.get("components")?.get("db")?.get("status")?.asText(),
-            "There is a problem with PostgreSQL"
-        )
+        assertServiceUp(responseBody, "db", "PostgreSQL")
+        assertServiceUp(responseBody, "rabbit", "RabbitMQ")
 
         assertEquals(HttpStatus.OK, response.statusCode)
     }
 }
+
+private fun assertServiceUp(json: JsonNode, key: String, name: String) =
+    assertEquals("UP", json.get("components")?.get(key)?.get("status")?.asText(), "There is a problem with $name")

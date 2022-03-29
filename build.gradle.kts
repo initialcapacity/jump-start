@@ -21,6 +21,8 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-jdbc:$springBootVersion")
     runtimeOnly("org.postgresql:postgresql:42.3.3")
 
+    implementation("org.springframework.boot:spring-boot-starter-amqp:$springBootVersion")
+
     testImplementation("org.springframework.boot:spring-boot-starter-test:$springBootVersion")
 }
 
