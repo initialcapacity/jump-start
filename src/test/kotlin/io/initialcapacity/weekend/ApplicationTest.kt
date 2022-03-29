@@ -18,6 +18,12 @@ class ApplicationTest {
     fun testHealth() {
         val response = RestTemplate().getForEntity("http://localhost:$port/actuator/health", JsonNode::class.java)
 
+        assertEquals(
+            "UP",
+            response.body?.get("components")?.get("db")?.get("status")?.asText(),
+            "There is a problem with PostgreSQL"
+        )
+
         assertEquals(HttpStatus.OK, response.statusCode)
     }
 }
