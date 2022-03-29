@@ -6,12 +6,12 @@ An exercise to prepare your machine for Cloud Native Weekend.
 
 Use your package manager of choice to install the following software ([homebrew](https://brew.sh/) packages listed).
 
-- [JDK 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) (openjdk@17)
-- [IntelliJ](https://www.jetbrains.com/idea/download/) (intellij-idea or intellij-idea-ce)
-- [PostgreSQL](https://www.postgresql.org/) (postgresql)
-- [RabbitMQ](https://www.rabbitmq.com/) (rabbitmq)
-- [Prometheus](https://prometheus.io/) (prometheus)
-- [Grafana](https://grafana.com/) (grafana)
+- [JDK 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) (_openjdk@17_)
+- [IntelliJ](https://www.jetbrains.com/idea/download/) (_intellij-idea_ or _intellij-idea-ce_)
+- [PostgreSQL](https://www.postgresql.org/) (_postgresql_)
+- [RabbitMQ](https://www.rabbitmq.com/) (_rabbitmq_)
+- [Prometheus](https://prometheus.io/) (_prometheus_)
+- [Grafana](https://grafana.com/) (_grafana_)
 
 ## Working directory
 
