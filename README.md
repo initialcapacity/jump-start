@@ -15,7 +15,7 @@ Use your package manager of choice to install the following software ([homebrew]
 
 ## Working directory
 
-We will be using `~/workspace` for all the exercises.
+We will use the `~/workspace` directory for all the exercises.
 Create that directory now.
 
 ```shell

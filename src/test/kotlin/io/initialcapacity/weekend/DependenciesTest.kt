@@ -11,19 +11,19 @@ import org.springframework.boot.web.server.LocalServerPort
 import org.springframework.http.HttpStatus
 
 @SpringBootTest(webEnvironment = RANDOM_PORT)
-class ApplicationTest {
+class DependenciesTest {
     @LocalServerPort
     lateinit var port: String
 
     @Test
     fun testHealth() {
-        val response = TestRestTemplate().getForEntity("http://localhost:$port/actuator/health", JsonNode::class.java)
-        val responseBody = response.body ?: NullNode.instance
+        val healthResponse = TestRestTemplate().getForEntity("http://localhost:$port/actuator/health", JsonNode::class.java)
+        val responseBody = healthResponse.body ?: NullNode.instance
 
         assertServiceUp(responseBody, "db", "PostgreSQL")
         assertServiceUp(responseBody, "rabbit", "RabbitMQ")
 
-        assertEquals(HttpStatus.OK, response.statusCode)
+        assertEquals(HttpStatus.OK, healthResponse.statusCode, "Check that all of your services are running")
     }
 }
 
