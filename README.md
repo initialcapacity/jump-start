@@ -13,18 +13,6 @@ Use your package manager of choice to install the following software ([homebrew]
 - [Prometheus](https://prometheus.io/) (_prometheus_)
 - [Grafana](https://grafana.com/) (_grafana_)
 
-## Working directory
-
-We will use the `~/workspace` directory for all the exercises.
-Create that directory now.
-
-```shell
-mkdir ~/workspace
-cd ~/workspace
-```
-
-Download the codebase in the top right corner, unzip it, and move it into this directory.
-
 ## The exercise
 
 Once your software is installed and running (using `brew services run $SERVICE_NAME` for homebrew), run the tests to
