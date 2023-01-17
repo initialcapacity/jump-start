@@ -12,6 +12,7 @@ Use your package manager of choice to install the following software ([homebrew]
 - [RabbitMQ](https://www.rabbitmq.com/) (_rabbitmq_)
 - [Prometheus](https://prometheus.io/) (_prometheus_)
 - [Grafana](https://grafana.com/) (_grafana_)
+- [Docker Compose](https://docs.docker.com/compose/install/) (_docker_)
 
 ## The exercise
 
